@@ -1,0 +1,64 @@
+body{
+    background-image: url(abstract-digital-grid-vector-black-background_53876-111550.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+}
+
+div.container{
+    display: block;
+    margin-top: 230px;
+    height: 800px;
+    border: aqua 5px inset;
+    border-radius: 50px;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div.container img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 100%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    height: 300px;
+    width: 300px;
+}
+
+input{
+    display: block;
+    background: none;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50px;
+    border: inset gold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 30px;
+    padding: 2px;
+}
+
+.container input[type=submit]{
+ background: none;
+ color: beige;
+ margin-top: 30px;
+ padding: 5px;
+ text-align: center;
+ height: 40px;
+}
+
+.container input[placeholder]{
+    font-family: cursive;
+    text-align: center;
+}
+
+#p1{
+    margin: auto;
+    text-align: center;
+}
+
+#a1{
+    text-decoration-line: none;
+}
