@@ -1,0 +1,46 @@
+body{
+    background-color: crimson;
+    margin: auto;
+}
+
+#Container img{
+width: 300px;
+height: 300px;
+display: block;
+margin: auto;
+border-radius: 50%;
+margin-top: 10%;
+margin-bottom: 5%;
+}
+
+input{
+    display: block;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background: white;
+    border: inset gold;
+    color: black;
+}
+
+input::placeholder{
+    font-family: cursive;
+    color: black;
+}
+
+input[type=submit]{
+    background-color: brown;
+    margin-top: 5%;
+}
+
+fieldset{
+    border-radius: 10px;
+    width: auto;
+    height: 99%;
+}
+
+#container form{
+    border: auto;
+    margin-top: 100%;
+}
